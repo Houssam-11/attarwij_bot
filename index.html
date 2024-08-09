@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="fr"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="description" content="Attarwij, Agency delivers innovative marketing solutions to boost your business. Enhance your visibility and growth with our tailored strategies. Contact us for your online success.">
+    <meta name="keywords" content="Attarwij Agency, atarwij, Innovative marketing solutions, Business growth strategies, Marketing partner,Increase visibility,Boost business success, Online marketing services, Personalized marketing strategies, Client-focused marketing, Digital marketing expertise, Enhance online presence, Targeted marketing campaigns, Marketing consultancy, Brand growth solutions, Marketing for businesses, Marketing agency contact">
+    <meta name="author" content="Nassim Oulkaid, Bettach Nada, Omar Bouhaddach">
+    <link rel="icon" type="image/x-icon" href="images/WhatsApp Image 2024-07-09 at 14.13.03.jpeg">
+    <title>ATTARWIJ AGENCY</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index2.css">
+    <style>
+        .notification {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+    </style>
+    
+        <link rel="stylesheet" href="styleBot.css">
+        <script src="scriptBot.js" defer></script>
+</head>
+<body >
+    <div id="content">
+        <header>
+            <div class="brand-name">  
+                <img src="images/WhatsApp Image 2024-06-13 at 17.16.02.jpeg" alt="Logo" class="logo">  
+                <div>
+                    <span class="orange">A</span>
+                    <span class="blue">TTARWIJ</span>  
+                    <span class="orange">A</span>
+                    <span class="blue">GENCY</span>
+                </div>
+            </div>
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#travail">Travail</a></li>
+                    <li><a href="#servicee">Services</a></li>
+                    <li><a href="#connecte">Contactez-nous</a></li>
+                </ul>
+                <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+            </nav>   
+        </header>
+        <div class="background-container">
+            <video autoplay muted loop playsinline id="background-video">
+                <source src="images/video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="overlay">
+                <section id="home">
+                    <h1><span class="orange">A</span><span class="blue">TTARWIJ</span>  <span class="orange">A</span><span class="blue">GENCY</span></h1>
+                    <br>
+                    <p>Où chaque pixel compte. Transformez votre marque en une expérience inoubliable avec nos stratégies de marketing révolutionnaires.
+                       Des idées audacieuses, une exécution impeccable - découvrez comment nous redéfinissons les normes du succès numérique.</p>
+                </section>
+            </div>
+            <img src="images/Image 13.png" alt="Background" class="fallback-image">
+        </div>
+        
+          
+    </div>    
+    <section id="travail">
+        <div class="background-container1">   
+            <div class="content">
+                <div class="text">
+                    <section id="about">
+                        <h1><b>Notre Mission</b></h1><br><br><br>
+                        <p><b>Attarwij Agency</b> est votre partenaire de confiance en marketing, 
+                            offrant des solutions innovantes pour propulser votre entreprise vers le succès.
+                            Avec une approche personnalisée et des stratégies ciblées, nous sommes déterminés à maximiser votre visibilité et à stimuler votre croissance.
+                            Découvrez comment notre expertise peut transformer votre présence en ligne et vous démarquer de la concurrence.</p>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </section>    
+    <section id="servicee">
+        <h1 class="services-title">Services</h1><br><br>
+        <section id="services">
+            <section class="services full-width-section">
+                <div class="service" onclick="showServiceDetails('Centre d\'appel 24/7')">
+                    <img src="images/call.png" alt="Contact Icon">
+                    <h2>Centre d'appel <br>24/7</h2>
+                </div>
+                <div class="service" onclick="showServiceDetails('Marketing Digital')">
+                    <img src="images/marketing digitale.png" alt="Marketing Digital Icon">
+                    <h2>Marketing Digital</h2>
+                </div>
+                <div class="service" onclick="showServiceDetails('Vente')">
+                    <img src="images/vente.png" alt="Vente Icon">
+                    <h2>Vente</h2>
+                </div>
+                <div class="service" onclick="showServiceDetails('Création Siteweb')">
+                    <img src="images/création siteweb.png" alt="Création Siteweb Icon">
+                    <h2>Création <br>Siteweb</h2>
+                </div>
+                <div class="service" onclick="showServiceDetails('Création de Contenu')">
+                    <img src="images/création de contenu.png" alt="Création de Contenu Icon">
+                    <h2>Création <br>de Contenu</h2>
+                </div>
+                <div class="learn-more-container">
+                    <a href="services.html" class="learn-more-button">Savoir plus</a>
+                </div>
+            </section>
+        </section>
+    </section>
+
+    <script>
+        function showServiceDetails(serviceName) {
+            alert("You clicked on " + serviceName);
+        }
+    </script>  
+        <section id="connecte" class="full-width-section">
+            <div class="stay-connected-text">
+                <section id="contact">
+                    <h2><span style="color: #EFB034;">R</span>ester <span style="color: #EFB034;">C</span>onnecté</h2>
+                </section>
+            </div>
+            <p>Nous serions ravis de connaître les objectifs de votre projet. Contactez-nous dès aujourd'hui pour une 
+                <br><span class="span">PROPOSITION PERSONNALISÉE GRATUITE!</span></p>
+        </section>
+        
+        <section class="contact">
+            <div class="container">
+                <form id="contactForm" method="post" action="data.php">
+                    <br>
+                    <label for="fullname"></label>
+                    <input type="text" id="fullname" name="fullname" required placeholder="Nom et Prénom">
+                    
+                    <label for="email"></label>
+                    <input type="email" id="email" name="email" required placeholder="Email">
+                    
+                    <label for="phone"></label>
+                    <input type="number" id="phone" name="phone" required placeholder="Numéro de téléphne ">
+                    
+                    <label for="company"></label>
+                    <input type="text" id="company" name="company" placeholder="Nom de l'entreprise">
+                    
+                    <label for="message"></label>
+                    <textarea id="message" name="message" placeholder="votre Message"></textarea>
+                    
+                    <p class="services-requested-title" style="margin-left: 1px;">Services demandés:</p>
+                    <div class="services-requested">
+                        <div class="checkbox-column">
+                            <div class="custom-checkbox">
+                                <input type="checkbox" id="social_media_strategy" name="services[]" value="Social Media Strategy">
+                                <label for="social_media_strategy">Stratégie de médias sociaux</label>
+                            </div>
+                            <div class="custom-checkbox">
+                                <input type="checkbox" id="influencer_marketing" name="services[]" value="Influencer Marketing">
+                                <label for="influencer_marketing">Marketing d'influence</label>
+                            </div>
+                            <div class="custom-checkbox">
+                                <input type="checkbox" id="social_media_management" name="services[]" value="Social Media Management">
+                                <label for="social_media_management">Gestion des médias sociaux</label>
+                            </div>
+                        </div>
+                        <div class="checkbox-column">
+                            <div class="custom-checkbox">
+                                <input type="checkbox" id="website_design_development" name="services[]" value="Website Design and Development">
+                                <label for="website_design_development">Conception et développement de sites Web</label>
+                            </div>
+                            <div class="custom-checkbox">
+                                <input type="checkbox" id="content_production" name="services[]" value="Content Production">
+                                <label for="content_production">Production de contenu</label>
+                            </div>
+                            <div class="custom-checkbox">
+                                <input type="checkbox" id="community_management" name="services[]" value="Community Management">
+                                <label for="community_management">Gestionnaire de communauté</label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <br><br><br>
+                    <div class="button-container">
+                        <button type="submit" id="submmit">envoyer</button>
+                    </div>
+                    <br>
+                </form>
+            </div>
+        </section>
+        
+        
+    <div class="notification" id="notification">Les données ont été insérées avec succès.</div>
+    <br><br>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column-container">
+                <div class="test" style="margin-top: 10px; margin-bottom: 0px;">
+                    <div class="footer-column">
+                        <div class="footer-social-icons">
+                            <img src="images/Instagram 1.png" alt="Instagram Icon">
+                            <span>Attarwijagency</span>
+                        </div>
+                        <div class="footer-social-icons">
+                            <img src="images/Logo facebook 2.png" alt="Facebook Icon">
+                            <span>Attarwijagency</span>
+                        </div>
+                    </div>
+                </div>
+            <div class="footer-column">
+                <div class="footer-social-icons">
+                    <img src="images/Email 2.png" alt="Email Icon">
+                    <span>attarwijagency@gmail.com</span>
+                </div>
+                <div class="footer-social-icons">
+                    <img src="images/Phone call 1.png" alt="Phone Icon">
+                    <span>+212781456887</span>
+                </div>
+            </div>
+            </div>
+            <nav class="footer-nav">
+                <ul>
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#servicee">Services</a></li>
+                    <li><a href="#travail">Travail</a></li>
+                    <li><a href="#connecte">Contactez-nous</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            var form = this;
+            fetch(form.action, {
+                method: 'POST',
+                body: new FormData(form)
+            }).then(response => response.text())
+              .then(data => {
+                  if (data === 'success') {
+                      document.getElementById('notification').style.display = 'block';
+                      setTimeout(() => {
+                          document.getElementById('notification').style.display = 'none';
+                      }, 3000);
+                  } else {
+                      alert(data);
+                  }
+              });
+        });
+    </script>
+</div>
+<div>
+    <button class="toggler" >
+        <span><img src="images/chatbot.png" alt="Chat Icon" style="width: 90px; height: 90px;"></span>
+        <span><img src="images/retirer.png" alt="close chat" style="width: 70px;height: 70px;background-color: #9b9b9b;border-radius: 50%;"></span>
+    </button>
+
+    <div class="chatBot">
+        <div class="Header2">
+            <img src="images/chatbot (1).png" style="width: 40px; height: 40px;">
+            <div class="disc">
+                <span class="Nome">Chatbot</span><br>
+                <span class="onlin" style="color:rgb(218, 138, 18)">online</span>
+                <span><img class="closing_mobile" src="images/retirer.png" alt="close chat" style="width: 30px;height: 30px; "></span>
+            </div>
+        </div>
+        
+        <!-- Options Container -->
+    <div class="chat-options">
+    </div>
+
+        <ul class="chatBox" style="padding-top: 10px; margin-top: 0px; padding-bottom: 10px;height: 284px;">
+            <li class="chat incoming">
+                <span>🤖</span>
+                <p>Hi, Je suis m.Bot 👋<br>bienvenue chez <i style="color: #fbaf00;">ATTARWIJ  AGENCY</i></p>
+            </li>            
+        </ul>
+        <div class="chat-input">
+            <textarea placeholder="Enter your message..." ></textarea>
+            <input type="button" id="sentBtn" value="send">
+            <span id="power" style="color: rgb(218, 138, 18);">powered by @Attarwij Agency </span>
+        </div>
+    </div>
+
+</div>
+<div class="notification" id="notification">Les données ont été insérées avec succès.</div>
+    <script src="index.js"></script>
+
+   
+
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.3/firebase-app.js";
+        import { getDatabase, ref, set, child } from "https://www.gstatic.com/firebasejs/10.12.3/firebase-database.js";
+
+        
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+            apiKey: "AIzaSyCpiprLbn4VV9xKayVvWt7sZ0ecPYbSgJw",
+            authDomain: "attarwij-989f2.firebaseapp.com",
+            databaseURL: "https://attarwij-989f2-default-rtdb.firebaseio.com",
+            projectId: "attarwij-989f2",
+            storageBucket: "attarwij-989f2.appspot.com",
+            messagingSenderId: "995411626654",
+            appId: "1:995411626654:web:7e3783b9f3cc340d91898f"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const db = getDatabase(app);
+
+        document.getElementById("submmit").addEventListener('click', function(e) {
+            e.preventDefault();
+
+            const fullname = document.getElementById('fullname').value;
+            const email = document.getElementById('email').value;
+            const phone = document.getElementById('phone').value;
+            const company = document.getElementById('company').value;
+            const message = document.getElementById('message').value;
+
+            // Collect and format selected services
+            var services = [];
+            document.querySelectorAll('input[name="services[]"]:checked').forEach(function(checkbox) {
+                services.push(checkbox.nextElementSibling.textContent.trim());
+            });
+
+            set(ref(db, 'user/' + fullname), {
+                Username: fullname,
+                Email: email,
+                Phone: phone,
+                Company: company,
+                Message: message,
+                Services: services.length > 0 ? "Les services demandés sont : " + services.join(', ') : "Aucun service sélectionné"
+            }).then(() => {
+                document.getElementById('notification').style.display = 'block';
+                setTimeout(() => {
+                    document.getElementById('notification').style.display = 'none';
+                }, 3000);
+            }).catch((error) => {
+                console.error("Error adding document: ", error);
+            });
+        });
+
+    
+</script>
+<script>
+    function toggleMenu() {
+    const navLinks = document.querySelector('.nav-links');
+    navLinks.classList.toggle('active');
+    document.body.classList.toggle('no-scroll');
+}
+
+    document.querySelectorAll('.nav-links a').forEach(link => {
+    link.addEventListener('click', () => {
+        const navLinks = document.querySelector('.nav-links');
+        if (navLinks.classList.contains('active')) {
+            navLinks.classList.remove('active');
+            document.body.classList.remove('no-scroll');
+        }
+    });
+});
+
+    function toggleSearch() {
+        const searchBar = document.querySelector('.search-bar input');
+        searchBar.classList.toggle('active');
+    }
+</script>
+</body>
+</html>
