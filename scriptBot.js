@@ -53,7 +53,7 @@ const botChat = async () => {
   chatBox.scrollTo(0, chatBox.scrollHeight);
 //Bot replying:
   try {
-    const response = await fetch(`http://127.0.0.1:5000/get_response?question=${userInput}`);
+    const response = await fetch(`https://attarwij-agency.onrender.com/get_response?question=${userInput}`);
     const data = await response.json();
     if (data.error) {
       throw new Error(data.error);
