@@ -19,7 +19,7 @@ This project involves the development and deployment of an interactive and respo
 To get this project up and running on your local machine, follow these steps:
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/your-repository-name.git
+git clone https://github.com/Houssam-11/attarwij_bot.git
 
 # Navigate to the project directory
 cd your-repository-name
