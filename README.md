@@ -1,4 +1,6 @@
 # 🤖 Responsive & Intelligent Chatbot 🤖
+<img src="Smart-Bot.png" alt="Chatbot Interaction" width="800" height="350">
+
 
 ## Overview
 This project involves the development and deployment of an interactive and responsive chatbot designed to enhance user interaction on the Attarwij Agency website. Utilizing HTML, CSS, JavaScript on the front end, and Python with Flask on the back end, this chatbot leverages the Gemini API to generate accurate and relevant responses based on user inquiries.
